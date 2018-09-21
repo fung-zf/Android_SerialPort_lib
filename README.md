@@ -1,0 +1,2 @@
+# Android_SerialPort_lib
+利用google提供SerialPort相关文件，生成so文件
