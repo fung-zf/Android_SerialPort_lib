@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "serialPort-Release-arm64-v8a": {
+      "artifactName": "serialPort",
+      "buildCommand": "E:\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target serialPort",
+      "abi": "arm64-v8a",
+      "output": "E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\build\\intermediates\\cmake\\release\\obj\\arm64-v8a\\libserialPort.so"
+    }
+  }
+}

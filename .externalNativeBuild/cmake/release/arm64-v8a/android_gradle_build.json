@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"E:/AndroidStudioProjects/TestApplication/MySerialPort/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"E:\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"serialPort-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "serialPort",
+			"buildCommand" : "E:\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target serialPort",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=aarch64-none-linux-android21 --gcc-toolchain=E:/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=E:/Android/Sdk/ndk-bundle/sysroot -DserialPort_EXPORTS  -isystem E:/Android/Sdk/ndk-bundle/sysroot/usr/include/aarch64-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "E:/AndroidStudioProjects/TestApplication/MySerialPort/src/main/cpp/SerialPort.c",
+					"workingDirectory" : "E:/AndroidStudioProjects/TestApplication/MySerialPort/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "E:/AndroidStudioProjects/TestApplication/MySerialPort/build/intermediates/cmake/release/obj/arm64-v8a/libserialPort.so",
+			"toolchain" : "2259502793"
+		}
+	},
+	"toolchains" : 
+	{
+		"2259502793" : 
+		{
+			"cCompilerExecutable" : "E:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "E:/Android/Sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

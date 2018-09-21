@@ -1,0 +1,16 @@
+{
+  "buildFiles": [
+    "E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "E:\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\.externalNativeBuild\\cmake\\debug\\x86 --target clean"
+  ],
+  "libraries": {
+    "serialPort-Debug-x86": {
+      "artifactName": "serialPort",
+      "buildCommand": "E:\\Android\\Sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\.externalNativeBuild\\cmake\\debug\\x86 --target serialPort",
+      "abi": "x86",
+      "output": "E:\\AndroidStudioProjects\\TestApplication\\MySerialPort\\build\\intermediates\\cmake\\debug\\obj\\x86\\libserialPort.so"
+    }
+  }
+}
